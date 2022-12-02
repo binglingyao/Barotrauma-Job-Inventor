@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Inventor" path="Mods/Inventor/filelist.xml" corepackage="false" gameversion="0.17.15.0">
+    <Jobs file="Mods/Inventor/Content/Jobs.xml"/>
+    <Text file="Mods/Inventor/Text/SimplifiedChinese.xml"/>
+    <TalentTrees file="Mods/Inventor/Content/TalentTrees.xml"/>
+    <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
+    <Talents file="Content/Talents/Assistant/TalentsAssistant.xml" />
+    <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
+    <Talents file="Content/Talents/Engineer/TalentsEngineer.xml" />
+    <Talents file="Content/Talents/Mechanic/TalentsMechanic.xml" />
+    <Talents file="Content/Talents/Security/TalentsSecurity.xml" />
+</contentpackage>

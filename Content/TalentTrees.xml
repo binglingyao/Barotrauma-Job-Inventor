@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+    <TalentTree jobidentifier="Inventor">
+        <SubTree identifier="Make1">
+            <TalentOption>
+                <TalentOption identifier="electrochemist"/>
+            </TalentOption>
+            <TalentOption>
+                <TalentOption identifier="remotemonitor"/>
+            </TalentOption>
+            <TalentOption>
+                <TalentOption identifier="artisansmith"/>
+            <TalentOption>
+        </SubTree>
+        <SubTree identifier="Make2">
+            <TalentOption>
+                <TalentOption identifier="demolitionsexpert"/>
+            </TalentOption>
+            <TalentOption>
+                <TalentOption identifier="cannedheat"/>
+            </TalentOption>
+            <TalentOption>
+                <TalentOption identifier="gunsmith"/>
+            </TalentOption>
+        </SubTree>
+        <SubTree identifier="Clown">
+            <TalentOptions>
+                <TalentOption identifier="enrollintoclowncollege"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="waterprankster"/>
+                <TalentOption identifier="inspiringtunes"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="psychoclown"/>
+                <TalentOption identifier="slapstickexpert"/>
+            </TalentOptions>
+            <TalentOptions>
+                <TalentOption identifier="truepotential"/>
+            </TalentOptions>
+        </SubTree>
+    </TalentTree>
+</TalentTree>
