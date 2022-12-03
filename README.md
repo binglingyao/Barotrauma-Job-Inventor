@@ -9,7 +9,12 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2810669395
 <h2>Introduction</h2>
 <p>I am an inventor, as an inventor basic quality is: everything to know a little bit <br>
 So I learned all the essentials of crafting and became proficient over the slow journey (Crafting quality +1 for all items). <br>
-In the pursuit of radiation, I gradually learned medicine and extracted different genes from samples again and again.</p>
+In the pursuit of radiation, I gradually learned medicine and extracted different genes from samples again and again.<br>
+As an inventor, deep research is essential.<br>
+So I learned how to take the strong parts of many different genes and combine them.<br>
+But... There's always some weird part I don't get... So there will still be failures.<br>
+I guess I'm just not good enough.<br>
+Well, that's the end of the story. I should... Back on the road!</p>
 <h2>Details</h2>
 <ol>
 <li>Number of referrals: Single</li>
