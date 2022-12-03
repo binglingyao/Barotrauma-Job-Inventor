@@ -25,6 +25,12 @@ In the pursuit of radiation, I gradually learned medicine and extracted differen
  - level 3 All Skill +30<br>
  - level 4 Refining Genetic Materials adds an additional 30% potency and Combining different types of Genetic Material is 70% less likely to taint the materials.</p>
  </ol>
+ <h2>About probabilities generated in LocationTypes</h2>
+ <p>City: 2<br>
+  Outpost: 1<br>
+  Military: 2<br>
+  Research: 10<br>
+  Mine: 1</p>
  <h2>Other</h2>
  <p>If the Mod is broken, please report to me.<br>
 If the Mod doesn't work, please try to adjust the Mod loading order. If it still doesn't work, please report to me.</p>
