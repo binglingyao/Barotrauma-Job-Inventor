@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+    <!-- 解锁全部配方 -->
+    <Talent identifier="unlockskill">
+        <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,4" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.unlockskill"/>
+        <AddedRecipe itemidentifier="makeshiftshelf"/>
+        <AddedRecipe itemidentifier="handhelditemfinder"/>
+        <AddedRecipe itemidentifier="petraptoregg"/>
+        <AddedRecipe itemidentifier="clowncrate"/>
+        <AddedRecipe itemidentifier="ceremonialsword"/>
+        <AddedRecipe itemidentifier="clowndivingmask"/>
+        <AddedRecipe itemidentifier="handcannon"/>
+        <AddedRecipe itemidentifier="handcannonround"/>
+        <AddedRecipe itemidentifier="revolver"/>
+        <AddedRecipe itemidentifier="revolverround"/>
+        <AddedRecipe itemidentifier="cigar"/>
+        <AddedRecipe itemidentifier="rum"/>
+        <AddedRecipe itemidentifier="endocrinebooster"/>
+        <AddedRecipe itemidentifier="advancedsyringegun"/>
+        <AddedRecipe itemidentifier="autoinjectorheadset"/>
+        <AddedRecipe itemidentifier="combatstimulantsyringe"/>
+        <AddedRecipe itemidentifier="chemgrenade"/>
+        <AddedRecipe itemidentifier="40mmchemgrenade"/>
+        <AddedRecipe itemidentifier="pressurestabilizer"/>
+        <AddedRecipe itemidentifier="advancedgenesplicer"/>
+        <AddedRecipe itemidentifier="europabrew"/>
+        <AddedRecipe itemidentifier="sulphuricacidsyringe"/>
+        <AddedRecipe itemidentifier="flamer"/>
+        <AddedRecipe itemidentifier="arcemitter" />
+        <AddedRecipe itemidentifier="fpgacircuit"/>
+        <AddedRecipe itemidentifier="cargoscooter"/>
+        <AddedRecipe itemidentifier="depletedfuel"/>
+        <AddedRecipe itemidentifier="coilgunammoboxdepletedfuel"/>
+        <AddedRecipe itemidentifier="wrenchhardened" />
+        <AddedRecipe itemidentifier="screwdriverhardened" />
+        <AddedRecipe itemidentifier="crowbarhardened" />
+        <AddedRecipe itemidentifier="divingknifehardened" />
+        <AddedRecipe itemidentifier="smgmagazinedepletedfuel" />
+        <AddedRecipe itemidentifier="revolverrounddepletedfuel" />
+        <AddedRecipe itemidentifier="nucleargun" />
+        <AddedRecipe itemidentifier="nuclearshell" />
+        <AddedRecipe itemidentifier="nucleardepthcharge" />
+        <AddedRecipe itemidentifier="handheldelectricalmonitor"/>
+        <AddedRecipe itemidentifier="pucs"/>
+        <AddedRecipe itemidentifier="reactorpda"/>
+        <AddedRecipe itemidentifier="fulguriumfuelrodvolatile"/>
+        <AddedRecipe itemidentifier="exosuit"/>
+        <AddedRecipe itemidentifier="heavywrench"/>
+        <AddedRecipe itemidentifier="defensebotspawner"/>
+        <AddedRecipe itemidentifier="defensebotammobox"/>
+        <AddedRecipe itemidentifier="scrapcannon"/>
+        <AddedRecipe itemidentifier="ironhelmet"/>
+        <AddedRecipe itemidentifier="makeshiftarmor"/>
+        <AddedRecipe itemidentifier="repairpack"/>
+        <AddedRecipe itemidentifier="fixfoamgrenade"/>
+        <AddedRecipe itemidentifier="handheldstatusmonitor"/>
+        <AddedRecipe itemidentifier="portablepump"/>
+        <AddedRecipe itemidentifier="safetyharness"/>
+        <AddedRecipe itemidentifier="assaultrifle"/>
+        <AddedRecipe itemidentifier="assaultriflemagazine"/>
+        <AddedRecipe itemidentifier="rifle"/>
+        <AddedRecipe itemidentifier="riflebullet"/>
+        <AddedRecipe itemidentifier="autoshotgun"/>
+        <AddedRecipe itemidentifier="stungundartfulgurium"/>
+        <AddedRecipe itemidentifier="riotshield"/>
+        <AddedRecipe itemidentifier="thermalgoggles"/>
+        <AddedRecipe itemidentifier="boardingaxe"/>
+        <AddedRecipe itemidentifier="slipsuit"/>
+        <AddedRecipe itemidentifier="harpooncoilrifle"/>
+        <AddedRecipe itemidentifier="bandolier"/>
+        <AddedRecipe itemidentifier="shotgunslugexplosive"/>
+        <AddedRecipe itemidentifier="shotgun"/>
+        <AddedRecipe itemidentifier="smg"/>
+        <AddedRecipe itemidentifier="hmg"/>
+        <AddedRecipe itemidentifier="hmgmagazine"/>
+        <AddedRecipe itemidentifier="smgmagazine"/>
+        <AddedRecipe itemidentifier="shotgunshell"/>
+    </Talent>
+
+    <!-- 全制作质量提升 -->
+    <Talent identifier="creatup">
+        <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.creatup">
+            <Replace tag="[qualitybonus]" value="+1" color="gui.green"/>
+        </Description>
+        <AbilityGroupEffect abilityeffecttype="None">
+            <Abilities>
+                <CharacterAbilityUnlockTree />
+                <CharacterAbilityGivePermanentStat statidentifier="pistolitem" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="cuttingequipment" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="weldingequipment" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="demolitionsexpert" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="weldingtoolfuel" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="refillableoxygensource" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="oxygenitetank" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="simpletool" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="gunsmith" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="mobilebattery" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="reactorfuel" stattype="IncreaseFabricationQuality" value="1" />
+            </Abilities>
+      </AbilityGroupEffect>
+    </Talent>
+
+    <!-- 全技能强化 -->
+    <Talent identifier="knowledgetoenhance">
+        <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="2,1" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.knowledgetoenhance">
+            <Replace tag="[amount]" value="+30" color="gui.green"/>
+        </Description>
+        <AbilityGroupEffect abilityeffecttype="None">
+            <Abilities>
+                <CharacterAbilityGiveStat stattype="HelmSkillBonus" value="30"/>
+                <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="30"/>
+                <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="30"/>
+                <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="30"/>
+                <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="30"/>
+            </Abilities>
+        </AbilityGroupEffect>
+    </Talent>
+
+    <!-- 异星基因学 -->
+    <Talent identifier="aliengenetics">
+        <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,6" sheetelementsize="128,128"/>
+        <Description tag="talentdescription.aliengenetics1">
+            <Replace tag="[probability]" value="70%" color="gui.green"/>
+        </Description>
+        <Description tag="talentdescription.aliengenetics2">
+            <Replace tag="[amount]" value="+30" color="gui.green"/>
+        </Description>
+        <AbilityGroupEffect abilityeffecttype="None">
+            <Abilities>
+                <CharacterAbilityGiveStat stattype="GeneticMaterialTaintedProbabilityReductionOnCombine" value="0.7"/>
+                <CharacterAbilityGiveStat stattype="GeneticMaterialRefineBonus" value="30"/>
+            </Abilities>
+        </AbilityGroupEffect>
+    </Talent>
+</Talents>

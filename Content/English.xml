@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+<!-- Jobs -->
+<jobname.Inventor>Inventor</jobname.Inventor>
+<jobdescription.Inventor>Production quality all +1, no prefabricated clothing.</jobdescription.Inventor>
+<!-- Skill 1 -->
+<talentname.unlockskill>Unlock Recipe</talentname.unlockskill>
+<talentdescription.unlockskill>Unlock all Recipe</talentdescription.unlockskill>
+<!-- Skill 2 -->
+<talentname.creatup>Quality Up</talentname.creatup>
+<talentdescription.creatup>All Quality [qualitybonus]</talentdescription.creatup>
+<!-- Skill 3 -->
+<talentname.knowledgetoenhance>Knowledge</talentname.knowledgetoenhance>
+<talentdescription.knowledgetoenhance>All Skill [amount]</talentdescription.knowledgetoenhance>
+<!-- Skill 4 -->
+<talentname.aliengenetics>Alien Genetics</talentname.aliengenetics>
+<talentdescription.aliengenetics1>Combining different types of Genetic Material is [probability] less likely to taint the materials.</talentdescription.aliengenetics1>
+<talentdescription.aliengenetics2>Refining Genetic Materials adds an additional [amount] potency</talentdescription.aliengenetics2>
+</infotexts>

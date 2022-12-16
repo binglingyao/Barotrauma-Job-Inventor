@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文（简体）">
+    <!-- 职业 -->
+    <jobname.Inventor>发明家</jobname.Inventor>
+    <jobdescription.Inventor>全能制作工具人,无服装</jobdescription.Inventor>
+    <!-- 技能1 -->
+    <talentname.unlockskill>配方解锁</talentname.unlockskill>
+    <talentdescription.unlockskill>解锁全部配方</talentdescription.unlockskill>
+    <!-- 技能2 -->
+    <talentname.creatup>质量提升</talentname.creatup>
+    <talentdescription.creatup>制作质量提升[qualitybonus]</talentdescription.creatup>
+    <!-- 技能3 -->
+    <talentname.knowledgetoenhance>知识渊博</talentname.knowledgetoenhance>
+    <talentdescription.knowledgetoenhance>全技能增加[amount]</talentdescription.knowledgetoenhance>
+    <!-- 技能4 -->
+    <talentname.aliengenetics>异星基因学</talentname.aliengenetics>
+    <talentdescription.aliengenetics1>合成基因污染的概率降低[probability]</talentdescription.aliengenetics1>
+    <talentdescription.aliengenetics2>精炼增加额外[amount]效力</talentdescription.aliengenetics2>
+</infotexts>
