@@ -76,6 +76,11 @@
         <AddedRecipe itemidentifier="hmgmagazine"/>
         <AddedRecipe itemidentifier="smgmagazine"/>
         <AddedRecipe itemidentifier="shotgunshell"/>
+        <AddedRecipe itemidentifier="crowbardementonite"/>
+        <AddedRecipe itemidentifier="wrenchdementonite"/>
+        <AddedRecipe itemidentifier="screwdriverdementonite"/>
+        <AddedRecipe itemidentifier="divingknifedementonite"/>
+        <AddedRecipe itemidentifier="dirtybomb"/>
     </Talent>
 
     <!-- 全制作质量提升 -->
@@ -86,18 +91,11 @@
         </Description>
         <AbilityGroupEffect abilityeffecttype="None">
             <Abilities>
-                <CharacterAbilityUnlockTree />
-                <CharacterAbilityGivePermanentStat statidentifier="pistolitem" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="cuttingequipment" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="weldingequipment" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="demolitionsexpert" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="weldingtoolfuel" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="refillableoxygensource" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="oxygenitetank" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="simpletool" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="gunsmith" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="mobilebattery" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="weapon" stattype="IncreaseFabricationQuality" value="1" />
                 <CharacterAbilityGivePermanentStat statidentifier="reactorfuel" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="mobilebattery" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="tool~toolmaintenance" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGivePermanentStat statidentifier="demolitionsexpert" stattype="IncreaseFabricationQuality" value="1" />
             </Abilities>
       </AbilityGroupEffect>
     </Talent>
@@ -111,10 +109,10 @@
         <AbilityGroupEffect abilityeffecttype="None">
             <Abilities>
                 <CharacterAbilityGiveStat stattype="HelmSkillBonus" value="30"/>
-                <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="30"/>
-                <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="30"/>
                 <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="30"/>
                 <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="30"/>
+                <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="30"/>
+                <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="30"/>
             </Abilities>
         </AbilityGroupEffect>
     </Talent>
