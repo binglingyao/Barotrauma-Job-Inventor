@@ -91,11 +91,7 @@
         </Description>
         <AbilityGroupEffect abilityeffecttype="None">
             <Abilities>
-                <CharacterAbilityGivePermanentStat statidentifier="weapon" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="reactorfuel" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="mobilebattery" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="tool~toolmaintenance" stattype="IncreaseFabricationQuality" value="1" />
-                <CharacterAbilityGivePermanentStat statidentifier="demolitionsexpert" stattype="IncreaseFabricationQuality" value="1" />
+                <CharacterAbilityGiveStat stattype="IncreaseFabricationQuality" value="1" />
             </Abilities>
       </AbilityGroupEffect>
     </Talent>

@@ -16,6 +16,9 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
+	  <Item identifier="assistantclothes" equip="true" outfit="true"/>
+	  <Item identifier="wrench"/>
+	  <Item identifier="screwdriver"/>
       <Item identifier="headset" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       <Item identifier="toolbelt" equip="true" showpreview="false"/>
